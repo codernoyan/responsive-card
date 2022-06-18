@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(1, 18.75rem);
+    grid-template-rows: 130px 200px 70px;
+    background-color: aliceblue;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.09875);
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.image-container{
+    background-image: url('./images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    transform: translateY(3.5rem);
+}
+
+.profile img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+.info-container > *{
+    margin-bottom: 1rem;
+}
+
+.info-container{
+    padding: 1rem;
+    display: flex;
+    align-items: flex-end;
+    height: 200px;
+    transform: translateY(2rem);
+}
+
+
+.heading h3{
+   font-size: 1rem; 
+   margin-bottom: 1rem;
+}
+
+.description p{
+    font-size: .85rem;
+    text-align: justify;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-content: end;
+    column-gap: 0.5rem;
+}
+
+.buttons .btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    padding: 1rem 0.75rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: all 0.3s linear;
+}
+
+.buttons .btn:hover{
+    background-color: palegreen;
+}
