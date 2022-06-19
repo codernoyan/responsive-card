@@ -31,6 +31,7 @@ img{
     box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.09875);
     overflow: hidden;
     border-radius: 4px;
+    margin: 0 2rem;
 }
 
 .image-container{
@@ -99,5 +100,5 @@ img{
 }
 
 .buttons .btn:hover{
-    background-color: palegreen;
+    background-color: #79362f;
 }
